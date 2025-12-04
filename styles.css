@@ -42,4 +42,5 @@
 .nav-links a:hover,
 .logo a:hover {
     color: #FFD700;
+    transform: translateY(-1px);
 }
