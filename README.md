@@ -1,3 +1,3 @@
-# *DBZ Flexmaster Project*
+# **DBZ Flexmaster Project**
 
-## *Finishing my flexbox learning by making a DBZ Project 🔥🔥🔥*
+## **Finishing my flexbox learning by making a DBZ Project 🔥🔥🔥**
