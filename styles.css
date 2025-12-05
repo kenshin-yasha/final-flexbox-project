@@ -60,11 +60,16 @@
     flex-direction: column;
     justify-content: flex-start;
     padding: 1.5rem;
+    min-width: 250px;
 }
 
 .main-content {
     flex: 1;
     background: #ffffff;
+}
+
+.profile {
+    margin-bottom: 0.5rem;
 }
 
 .profile figure {
@@ -108,8 +113,8 @@
 }
 
 .menu-item.active {
-    background-color: rgba(0,0,0,0.1);
-    font-weight: bold;
+    background-color: rgba(0,0,0,0.15);
+    font-weight: 700;
     border-left: 4px solid #0EA3E7;
 
 }
