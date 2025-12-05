@@ -66,6 +66,7 @@
 .main-content {
     flex: 1;
     background: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .profile {
@@ -112,9 +113,29 @@
     cursor: pointer;
 }
 
-.menu-item.active {
+.menu-item.parent {
     background-color: rgba(0,0,0,0.15);
+    pointer-events: none;
     font-weight: 700;
     border-left: 4px solid #0EA3E7;
+}
 
+
+.welcome {
+    font-size: xx-large;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.content-container {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: x-large;
+}
+
+ul {
+    list-style: inside;
 }
