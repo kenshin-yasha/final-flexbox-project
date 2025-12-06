@@ -50,7 +50,7 @@
 
 .layout {
     display: flex;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .sidebar {
@@ -65,7 +65,7 @@
 
 .main-content {
     flex: 1;
-    background: #ffffff;
+    background: #eff8f3;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -124,7 +124,7 @@
 .welcome {
     font-size: xx-large;
     text-align: center;
-    margin-top: 1rem;
+    margin: 1rem;
 }
 
 .content-container {
@@ -156,7 +156,8 @@ ul {
 }
 
 .stat-card {
-    background: #fff;
+    background: #072083;
+    color: #fff;
     padding: 1rem 1.2rem;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.15);
