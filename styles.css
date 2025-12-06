@@ -50,7 +50,7 @@
 
 .layout {
     display: flex;
-    height: 90vh;
+    height: 100vh;
 }
 
 .sidebar {
@@ -138,4 +138,37 @@
 
 ul {
     list-style: inside;
+}
+
+.stats {
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.stats h2 {
+    margin-bottom: 1rem;
+}
+
+.stats-container {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.stat-card {
+    background: #fff;
+    padding: 1rem 1.2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+    flex: 1 1 200px; /* flex-grow, flex-shrink, flex-basis */
+}
+
+.stat-card h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.stat-card p {
+    font-size: 1.3rem;
+    font-weight: bold;
 }
